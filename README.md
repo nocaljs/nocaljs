@@ -68,5 +68,3 @@ import { tags, add, html, state, states, watch, derive, change, until, sleep, sc
 ## Documentation
 
 Documentation is a work in progress...
-
-  * [nocaljs documentation](https://nocaljs.github.io/docs/)
