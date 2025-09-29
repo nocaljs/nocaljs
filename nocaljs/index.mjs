@@ -9,7 +9,7 @@ import { style } from './style.mjs'
 export { tags, add, html, state, states, watch, derive, change, until, sleep, schedule, css, S, router, model, component, style }
 
 console.log(`
-            nanojs
+           nocaljs
             
              (\\/)
             ( ..)
