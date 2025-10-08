@@ -1,6 +1,8 @@
-# nocaljs - A minimal reactive framework, some batteries included
+# NocalJs - A zero calories reactive framework
 
-**nocaljs** is a lightweight, functional framework for building reactive web applications.
+![NocalJS - Zero calories JS Reactive Framework](./assets/nocal_small.svg) 
+
+**NocalJs** is a lightweight, functional framework for building reactive web applications.
 
 ## Features
 
