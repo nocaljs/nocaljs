@@ -104,4 +104,8 @@ async function until(state, fn) {
     })
 }
 
-export { state, states, watch, derive, change, until }
+function val(state) {
+    return state.value
+}
+
+export { state, states, watch, derive, change, until, val }
