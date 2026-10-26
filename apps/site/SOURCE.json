@@ -1,0 +1,33 @@
+{
+  "sourceProject": "nocaljs-site",
+  "sourceCommit": "cf766a1ab3347893193dcf59c861bef74bab60e3",
+  "snapshot": "working tree, including uncommitted edits",
+  "files": {
+    "index.html": "f8c525bf073cb2abb10fe0f903172ea88052df8ea3eb4cb88743979b63ea48e9",
+    "index.js": "7e159c74b9c52cda162e957a3e5d6396081529d377be4fa9f93b631083549a56",
+    "styles.css": "369e248c5d9327e3b487e358205a654a1966f473adad89d1d29e3ddd6a28f921",
+    "package.json": "46bb804e90fbdb06ad80bf57838d6fd69a9492a2547c1892f072f9fe169218a8",
+    "src/app.js": "3145c8a95ca25ff3dc9d80d7cdb7153c52f7994019864d3354375e7a9253d9de",
+    "src/components/codeBlock.js": "b82c36e8fb8570e75109826c2075231b68f83fc9fc4d082f45bc0b369665ca8d",
+    "src/components/exampleFrame.js": "85aafef53a8f5af70f1873d3cc51368605c4ad100bce88868ebcd0acc15187b2",
+    "src/components/footer.js": "53113a00b7d3ab01faa20fa11c1e05a662ad96a8cdafe9c0b294c41bfbe6afce",
+    "src/components/nav.js": "c47b2940a10dee20516160dcbad920325da1696b526bea5ea0abb1ebb7d4122c",
+    "src/pages/_stub.js": "8945d6281d1260583aed343ca19d38c9308c4e41297dcb2a6de9eb1fb776f200",
+    "src/pages/about.js": "3f6f8e289d7fce621bfca305d261f61f31e227956b814424c47d196aebabb15f",
+    "src/pages/docs/dom.js": "cc50b1e1c5babebdda1309478b2d3b069f58e32260c62e4d6f141a704024dcc2",
+    "src/pages/docs/index.js": "aaabac375c04183e64ea4f795b0c23b0c771d49ecc5c955f10fe6865f762a142",
+    "src/pages/docs/routing.js": "a803893339c91b57c7bedbde7af93b2974d301b1eb81812371dfe09be85d2969",
+    "src/pages/docs/state.js": "f49e0d79202c6f6345bc00d0a066d54dc800913cd58e0552835437b886d985ab",
+    "src/pages/docs/utilities.js": "acfd8ff1cfd4da793b05a2d5b46e3dbed41e220f3ef86501c71843a526f3e517",
+    "src/pages/examples/counter.js": "5f065c35925f2eba34b4c66bab6fe36eaeb19ecf1814533181254017982522bc",
+    "src/pages/examples/derived.js": "113d4140135a2300979d9fa1cf8ea541da66450c9bb9e6a07cd306e20343768d",
+    "src/pages/examples/form.js": "d2072f6424d0b741fc197a00b98cbf4d89f0a65e7cf2d3b12c32dac019757fb0",
+    "src/pages/examples/index.js": "94625e29242240d17bb72f6f9d402653b2a2b300b5f68d87bf917112ad0e8507",
+    "src/pages/examples/router.js": "19796a2335576da74ef6b8ff43a88a12d0cd96bea363493187f43b249655270c",
+    "src/pages/examples/todo.js": "5041435f698e40a2e872600eb8bb87cca24d01a7b87c1ee4a626f64f88c44895",
+    "src/pages/getStarted.js": "342a321658fadab07173d13c464f4cf863423263cdc3d122bcfd32e942044116",
+    "src/pages/home.js": "4681d9d1cd0b335ccb7991631663a054d19a271c88ca4a4d2ce281b956c4f3af",
+    "src/pages/notFound.js": "4beac9f3cf8df395f7349c3c88186f71a0cfe405e9f2c3aab3f4b977390fc923",
+    "src/routes.js": "c5777cf622ba802e9e2b8ca16e54be9d68b728acbfed3441642a0bec98d9459d"
+  }
+}

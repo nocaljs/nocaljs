@@ -1,0 +1,9 @@
+# Third-party license provenance
+
+Browser release notices are collected from the actual aggregate webpack module graph, using the installed packages and root lockfile. The release fails if a bundled package has no known license text. Raw webpack paths remain in ignored `build/`; release notices contain package names, versions and full license texts only.
+
+OpenType 1.3.4 is already bundled upstream. Its module header explicitly credits tiny-inflate by Devon Govett and string.prototype.codepointat by Mathias Bynens (polyfill banner v0.2.0). These do not appear as separate webpack modules. Notices therefore also include their full MIT licenses from the installed 1.0.3 and 0.2.1 packages, with that provenance recorded separately from their unestablished embedded versions. An OpenType version change requires a renewed embedded dependency review.
+
+`bezier-js` 2.6.1, bundled by Maker.js, omits a license file from its npm package. Its `lib/bezier.js` header attributes Pomax, links to <http://pomax.github.io/bezierinfo> and declares MIT. `bezier-js-2.6.1.txt` preserves that declaration with the standard MIT permission and warranty text. The upstream tag is <https://github.com/Pomax/bezierjs/tree/v2.6.1>; the current upstream MIT text is <https://github.com/Pomax/bezierjs/blob/master/LICENSE.md> (retrieved 2026-10-26). Its later 2023 copyright date is not applied retroactively to this older package. The directly installed 6.x version is not included unless the bundle graph imports it.
+
+The unmodified IBM Plex font in `packages/nocaljs-cad2d/fonts/` declares “Copyright 2019 IBM Corp. All rights reserved.” and SIL OFL 1.1 in its embedded name table. `OFL.txt` is the full official IBM license, retrieved 2026-10-26 from <https://github.com/IBM/plex/blob/master/LICENSE.txt>; its general notice reserves the font name Plex. The font is source material and is not included in the browser archive or website runtime.

@@ -1,0 +1,24 @@
+{
+  "name": "nocaljs-cad2d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/nocaljs-cad2d-core.mjs",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "webpack",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "private": true,
+  "dependencies": {
+    "makerjs": "^0.18.1",
+    "bezier-js": "^6.1.4",
+    "opentype.js": "^1.3.4"
+  },
+  "exports": {
+    ".": "./dist/nocaljs-cad2d-core.mjs",
+    "./ext": "./dist/nocaljs-cad2d-ext.mjs"
+  },
+  "files": [
+    "dist"
+  ]
+}

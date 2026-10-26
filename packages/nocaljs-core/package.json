@@ -1,0 +1,43 @@
+{
+  "name": "nocaljs-core",
+  "version": "1.0.0",
+  "description": "nocaljs is a lightweight reactive framework with built-in utilities. It provides DOM manipulation, state management, a hash-based router, a reactive data model, and support for web components",
+  "exports": {
+    ".": "./dist/nocaljs-core.mjs",
+    "./nocaljs.css": "./dist/nocaljs.css"
+  },
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "webpack",
+    "cdn:deploy": "make cdn"
+  },
+  "private": true,
+  "author": "Johan Van den Brande",
+  "license": "MIT",
+  "keywords": [
+    "reactive",
+    "framework",
+    "minimal",
+    "state-management",
+    "dom",
+    "router",
+    "web-components",
+    "data-model",
+    "hash-router",
+    "nocaljs",
+    "lightweight",
+    "reactivity",
+    "frontend-framework",
+    "component-based"
+  ],
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "marked": "^15.0.7",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3",
+    "shelljs": "^0.9.2"
+  }
+}

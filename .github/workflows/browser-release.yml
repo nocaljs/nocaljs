@@ -1,0 +1,50 @@
+name: Prepare browser release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Approved version, without v (matching tag must already exist)'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v${{ inputs.version }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+          cache: pip
+          cache-dependency-path: packages/nocaljs-docs/requirements.txt
+      - run: npm install --global npm@11.6.2
+      - run: npm ci
+      - run: python3 -m pip install -r packages/nocaljs-docs/requirements.txt
+      - name: Verify public history
+        run: |
+          git merge-base --is-ancestor HEAD origin/main
+          node scripts/check-public-history.mjs
+      - run: npm run release:prepare -- --version="$RELEASE_VERSION"
+        env:
+          RELEASE_VERSION: ${{ inputs.version }}
+      - run: npm run test:release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nocaljs-browser-${{ inputs.version }}
+          path: |
+            build/release/*.zip
+            build/release/SHA256SUMS
+            build/release/*/RELEASE-NOTES.md
+          if-no-files-found: error

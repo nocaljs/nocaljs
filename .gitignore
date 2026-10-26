@@ -1,3 +1,11 @@
-/.idea/
-/node_modules/
-/dist/
+.idea/
+node_modules/
+dist/
+/.output.txt
+/packages/nocaljs-docs/site/
+.DS_Store
+spec/
+/apps/site/vendor/
+/examples/counter/vendor/
+.venv/
+/build/
