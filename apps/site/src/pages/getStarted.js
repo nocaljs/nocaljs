@@ -22,7 +22,7 @@ export default function GetStartedPage() {
   return article({ class: 'page prose' }, h1('Get started in the browser'),
     p('NocalJS is not on npm yet. Use the individual files below, or build the framework from source. No bundler is needed for your application.'),
     p(a({ href: 'https://github.com/nocaljs/nocaljs/releases' }, 'Browse browser release downloads'),
-      ' for published versions, release notes and SHA-256 checksums. The individual-file quickstart below also works before the first release is published.'),
+      ' for published versions, release notes and SHA-256 checksums. The first browser release is v0.1.0. The individual-file quickstart below provides the same minimal setup.'),
     h2('1. Copy the files'),
     p('Keep index.html and counter.mjs in one directory, with the core module and optional stylesheet in a vendor subdirectory. Include the MIT license with your copy.'),
     ul(li(download('quickstart/index.html', 'index.html')), li(download('quickstart/counter.mjs', 'counter.mjs')),

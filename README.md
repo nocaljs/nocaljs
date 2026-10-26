@@ -15,7 +15,7 @@
 
 > [!IMPORTANT]
 > **NocalJS is not currently published on the npm registry.**
-> Use browser ES modules from this checkout's generated `dist` directory. A versioned download will follow with the first public release.
+> Download the [v0.1.0 browser archive](https://github.com/nocaljs/nocaljs/releases/download/v0.1.0/nocaljs-0.1.0.zip), verify it against [SHA256SUMS](https://github.com/nocaljs/nocaljs/releases/download/v0.1.0/SHA256SUMS), and serve its `quickstart/` directory over HTTP. No npm install or bundler is needed. You can also build the modules from this checkout as described below.
 
 Maintainers need Node **24.22.1** (`nvm use`) and npm **11.6.2**. From the repository root:
 

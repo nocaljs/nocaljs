@@ -2,7 +2,7 @@
 
 The framework, optional libraries, official website and runnable examples live in this repository. Standalone applications retain separate repositories.
 
-For browser projects, download a versioned archive from [GitHub Releases](https://github.com/nocaljs/nocaljs/releases), verify `SHA256SUMS`, extract it and serve the `quickstart/` directory over HTTP. Until the first release is published, follow the source-build instructions in [README.md](README.md).
+For browser projects, download a versioned archive from [GitHub Releases](https://github.com/nocaljs/nocaljs/releases), verify `SHA256SUMS`, extract it and serve the `quickstart/` directory over HTTP. The first browser release is [v0.1.0](https://github.com/nocaljs/nocaljs/releases/tag/v0.1.0). Source-build instructions are in [README.md](README.md).
 
 Use named core imports:
 

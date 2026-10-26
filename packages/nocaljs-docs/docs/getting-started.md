@@ -1,6 +1,6 @@
 # Getting started
 
-NocalJS runs as browser ES modules without a consumer build step. It is not yet published on npm, and the first versioned release download is still being prepared.
+NocalJS runs as browser ES modules without a consumer build step. It is not yet published on npm. Download the [v0.1.0 browser archive](https://github.com/nocaljs/nocaljs/releases/download/v0.1.0/nocaljs-0.1.0.zip) and verify it against [SHA256SUMS](https://github.com/nocaljs/nocaljs/releases/download/v0.1.0/SHA256SUMS), or build from source below.
 
 ## Build from this checkout
 
@@ -29,7 +29,7 @@ my-app/
     nocaljs.css
 ```
 
-Copy `index.html` and `counter.mjs` from `examples/counter/`, and copy the two vendor files from the generated `dist/` directory. This is also the layout to use with those files from a future release download; no download URL is promised until that release exists.
+Copy `index.html` and `counter.mjs` from `examples/counter/`, and copy the two vendor files from the generated `dist/` directory. The release archive already includes this layout under `quickstart/`, ready to serve over HTTP.
 
 Keep the repository's `LICENSE` notice with redistributed framework files. The website's runnable quickstart includes it as `LICENSE.txt`.
 
